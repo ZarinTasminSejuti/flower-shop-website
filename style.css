@@ -1,54 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* general html tag */
-body{
-    background-color: #fff;
-    width: 1920px;
-    font-family: Arial, sans-serif;
+body {
+  background-color: #fff;
+  width: 1920px;
+  font-family: Arial, sans-serif;
 }
 
 /* header section styles */
-.banner-container{
-    background-color: rgb(237, 253, 220);
-    display: flex;
-    align-items: center;
-   justify-content: space-between;
-   padding: 50px 240px 0px 240px;
+.banner-container {
+  background-color: rgb(237, 253, 220);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 240px 0px 240px;
 }
 
-.banner-content{
-    width: 710px;
+.banner-content {
+  width: 710px;
 }
 
-.banner-heading{
-    font-size: 80px;
-    color: #76a303;
-    margin-bottom: 30px;
+.banner-heading {
+  font-size: 80px;
+  color: #76a303;
+  margin-bottom: 30px;
 }
 
-.banner-paragraph{
-    font-size: 16px;
-    line-height: 30px;
-    color: rgba(39, 39, 39, 0.60);
-    margin-top: 0px;
-    margin-bottom: 30px;
-    width: 545px;
+.banner-paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 545px;
 }
 
-.btn-shop{
-    color:#fff;
-    background-color: #E55473;
-    border-style: none;
-    border-radius: 8px;
-    font-size: 16px;
-    padding: 20px 40px;
-    margin-top: 0px;
+.btn-shop {
+  color: #fff;
+  background-color: #e55473;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 20px 40px;
+  margin-top: 0px;
 }
 
-.banner-image{
-    width: 635px;
-    height: 800px;
+.banner-image {
+  width: 635px;
+  height: 800px;
+}
+
+/* featured section styles */
+
+.featured-section {
+  text-align: center;
+  padding: 175px 240px 130px 240px;
+}
+
+.featured-section-header {
+  font-size: 40px;
+  color: #76a303;
+}
+
+.featured-section-paragraph {
+  font-size: 16px;
+}
+
+/* delivery-support-section styles */
+.delivery-support-container {
+  background-color: rgba(184, 243, 208, 0.249);
+  margin: 130px 240px 130px 240px;
+}
+
+.delivery-support-section > ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 85px 175px;
+}
+
+.delivery-support-section > ul li {
+  list-style: none;
+}
+
+.delivery-support-section > ul li img {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 20px;
+}
+
+.delivery-support-section > ul li p {
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
 }
