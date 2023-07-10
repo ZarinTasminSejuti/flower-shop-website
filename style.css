@@ -63,10 +63,32 @@ body {
 .featured-section-header {
   font-size: 40px;
   color: #76a303;
+  margin-bottom: 25px;
 }
 
 .featured-section-paragraph {
   font-size: 16px;
+  color: rgba(39, 39, 39, 0.6);
+  width: 500px;
+  justify-content: center;
+  line-height: 25px;
+  margin: 0px auto;
+}
+
+.featured-gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/pngwing 6.png"), url("./images/pngwing 5.png"), url("./images/pngwing 7.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.featured-photo{
+    width: 465px;
+    height: 535px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgb(237, 253, 220);   
 }
 
 /* delivery-support-section styles */
@@ -95,4 +117,6 @@ body {
 .delivery-support-section > ul li p {
   font-size: 14px;
   color: rgba(39, 39, 39, 0.6);
+  width: 220px;
+  
 }
