@@ -29,7 +29,7 @@ body {
   margin-bottom: 30px;
 }
 
-.banner-paragraph {
+.primary-paragraph {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 39, 39, 0.6);
@@ -57,7 +57,7 @@ body {
 
 .featured-section {
   text-align: center;
-  padding: 175px 240px 130px 240px;
+  margin-top: 175px;
 }
 
 .featured-section-header {
@@ -75,26 +75,55 @@ body {
   margin: 0px auto;
 }
 
-.featured-gallery{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url("./images/pngwing 6.png"), url("./images/pngwing 5.png"), url("./images/pngwing 7.png");
-    background-repeat: no-repeat;
-    background-position: bottom center;
+.featured-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 0px;
+    width: 1440px;
 }
 
-.featured-photo{
-    width: 465px;
-    height: 535px;
-    border-radius: 300px 300px 0px 0px;
-    background-color: rgb(237, 253, 220);   
+.featured-photo {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.photo-1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  background-image: url("./images/pngwing 6.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.photo-2 {
+  background-color: rgba(5, 151, 160, 0.15);
+  background-image: url("./images/pngwing 5.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 70%;
+}
+
+.photo-3 {
+  background-color: rgba(71, 125, 17, 0.15);
+  background-image: url("./images/pngwing 7.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.featured-photo-link {
+  margin-top: 25px;
+}
+
+.featured-photo-link a {
+  color: #76a303;
 }
 
 /* delivery-support-section styles */
 .delivery-support-container {
+  width: 1440px;
   background-color: rgba(184, 243, 208, 0.249);
-  margin: 130px 240px 130px 240px;
+  margin: 130px auto;
 }
 
 .delivery-support-section > ul {
@@ -118,5 +147,27 @@ body {
   font-size: 14px;
   color: rgba(39, 39, 39, 0.6);
   width: 220px;
-  
+}
+
+/* sale section style */
+
+.text-primary {
+  color: #e55473;
+}
+
+.sale-container {
+  background-color: rgb(237, 253, 220);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 430px 100px 390px;
+}
+
+.sale-content {
+  text-align: center;
+}
+
+.sale-header {
+  margin-bottom: 10px;
+  font-size: 40px;
 }
