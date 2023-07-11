@@ -57,7 +57,7 @@ body {
 
 .featured-section {
   text-align: center;
-  margin-top: 175px;
+  margin-top: 150px;
 }
 
 .featured-section-header {
@@ -97,7 +97,7 @@ body {
 }
 
 .photo-2 {
-  background-color: rgba(5, 151, 160, 0.15);
+  background-color: rgba(71, 125, 17, 0.15);
   background-image: url("./images/pngwing 5.png");
   background-repeat: no-repeat;
   background-position-x: center;
@@ -105,14 +105,14 @@ body {
 }
 
 .photo-3 {
-  background-color: rgba(71, 125, 17, 0.15);
+  background-color: rgba(167, 33, 98, 0.15);
   background-image: url("./images/pngwing 7.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .featured-photo-link {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .featured-photo-link a {
@@ -122,7 +122,7 @@ body {
 /* delivery-support-section styles */
 .delivery-support-container {
   width: 1440px;
-  background-color: rgba(5, 151, 160, 0.15);
+  background-color: rgba(71, 125, 17, 0.15);
   margin: 130px auto;
 }
 
@@ -150,6 +150,7 @@ body {
   width: 300px;
 }
 
+
 /* choose gift section style */
 
 .choose-gift-container > h2 {
@@ -159,39 +160,34 @@ body {
 }
 
 .choose-gift {
+  display: flex;
   text-align: center;
   width: 1440px;
   height: 450px;
-  margin: 50px auto;
-  position: relative;
+  margin: 50px auto 150px;
   background-image: url("./images/gift.jpeg");
-  /* background-image: url("./images/Rectangle 9.png"); */
   background-repeat: no-repeat;
-}
-
-.choose-box-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
-  padding: 85px 175px;
+  border-radius: 10px;
 }
 
 .choose-box-details img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
+
 .choose-box-details {
   background-color: #fff;
-  border: 1px solid #76a303;
-  width: 500px;
+  border: 2px dashed #76a303;
+  width: 200px;
   height: 100px;
-  padding: 10px;
+  padding: 15px;
+  margin: 100px;
   /* box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06); */
 }
+
 hr {
-  border: 1px dashed green;
-  margin: 2s0px 0px;
+  border: 1px dashed white;
+  margin: 55px 0px 10px;
 }
 
 .btn-gift {
@@ -199,13 +195,12 @@ hr {
   background-color: #e55473;
   border-style: none;
   border-radius: 5px;
-  font-size: 14px;
-  padding: 10px 30px;
+  font-size: 13px;
+  padding: 10px 10px;
   margin-top: 20px;
 }
-.choose-box-details {
-  color: #76a303;
-}
+
+
 
 /* sale section style */
 .text-primary {
@@ -230,9 +225,10 @@ hr {
   text-align: center;
 }
 
+
 /* instagram section style */
 .instagram-container {
-  margin: 130px auto;
+  margin: 120px auto;
   text-align: center;
   width: 1440px;
 }
