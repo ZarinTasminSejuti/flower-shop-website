@@ -241,3 +241,29 @@ body {
   padding: 18px 30px;
   color: rgba(39, 39, 39, 0.6);
 }
+
+/* footer section style */
+.footer-container{
+  text-align: center;
+  background-color: black;
+  width: 1920px;
+  height: 450px;
+  color: #fff;
+}
+.logo{
+  padding: 130px 650px 20px;
+  color: #76a303;
+  font-size: 60px;
+}
+.footer-paragraph{
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.90);
+  width: 545px;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+  margin-top: 32px;
+}
