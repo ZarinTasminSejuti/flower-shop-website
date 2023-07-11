@@ -161,8 +161,9 @@ body {
 }
 
 .choose-gift {
+  justify-content: space-evenly;
+  align-items: center;
   display: flex;
-  text-align: center;
   width: 1440px;
   height: 450px;
   margin: 50px auto 150px;
@@ -171,24 +172,27 @@ body {
   border-radius: 10px;
 }
 
-.choose-box-details img {
+.choose-box-details {
+  text-align: center;
+}
+
+.choose-gift-img {
+  background-color: #fff;
+  border: 2px dashed #76a303;
+  padding: 20px;
+  align-items: center;
+}
+
+.choose-gift-img img {
   width: 90px;
   height: 90px;
 }
 
-.choose-box-details {
-  background-color: #fff;
-  border: 2px dashed #76a303;
-  width: 200px;
-  height: 100px;
-  padding: 15px;
-  margin: 100px;
-  /* box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06); */
-}
-
 hr {
-  border: 1px dashed white;
-  margin: 55px 0px 10px;
+  border: none;
+  border-top: 7px dotted white;
+  width: 54px;
+  margin: 40px auto;
 }
 
 .btn-gift {
@@ -196,9 +200,9 @@ hr {
   background-color: #e55473;
   border-style: none;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px 10px;
-  margin-top: 20px;
+  width: 150px;
 }
 
 
