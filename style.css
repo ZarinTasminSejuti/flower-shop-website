@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 /* header section styles */
 .banner-container {
   background-color: rgb(237, 253, 220);
@@ -53,8 +54,8 @@ body {
   height: 800px;
 }
 
-/* featured section styles */
 
+/* featured section styles */
 .featured-section {
   text-align: center;
   margin-top: 150px;
@@ -119,6 +120,7 @@ body {
   color: #76a303;
 }
 
+
 /* delivery-support-section styles */
 .delivery-support-container {
   width: 1440px;
@@ -152,7 +154,6 @@ body {
 
 
 /* choose gift section style */
-
 .choose-gift-container > h2 {
   color: #76a303;
   font-size: 40px;
@@ -199,7 +200,6 @@ hr {
   padding: 10px 10px;
   margin-top: 20px;
 }
-
 
 
 /* sale section style */
@@ -253,6 +253,7 @@ hr {
   margin-top: 45px;
 }
 
+
 /* form style section */
 .form-container {
   margin: 130px auto;
@@ -287,6 +288,7 @@ hr {
   padding: 18px 30px;
   color: rgba(39, 39, 39, 0.6);
 }
+
 
 /* footer section style */
 .footer-container {
